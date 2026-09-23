@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "jev-chrome-devtools": {
+      "command": "node",
+      "args": [
+        "c:/Users/ADMIN/Downloads/jev-bro/dist/mcp_server.js",
+        "--headless=false"
+      ]
+    }
+  }
+}

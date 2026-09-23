@@ -1,0 +1,7 @@
+node_modules/
+dist/
+logs/
+.DS_Store
+*.log
+.env
+.jev-chrome-profile/

@@ -1,0 +1,35 @@
+{
+  "name": "jev-chrome-devtools-automation",
+  "version": "1.0.0",
+  "description": "High-Speed Non-Autoregressive Web Automation Engine combining openJev-verdict-2.0 with Chrome DevTools Protocol",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/mcp_server.js",
+    "benchmark": "tsx src/demo_benchmark.ts",
+    "live": "tsx src/visual_live_run.ts",
+    "test": "node --test --import tsx tests/**/*.test.ts"
+  },
+  "keywords": [
+    "mcp",
+    "chrome-devtools",
+    "automation",
+    "openjev",
+    "verdict-2.0",
+    "fast-loop",
+    "system-1"
+  ],
+  "author": "Antigravity Pair Programmer",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.6.1",
+    "puppeteer": "^24.4.0",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.9",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.2"
+  }
+}
